@@ -14,16 +14,15 @@ Looking back, the physics and code have real shortcomings; this archive does not
 
 | Folder or file | Contents |
 | --- | --- |
-| [`notes/handwritten/`](notes/handwritten/) | Your handwritten hydrogen-atom notes in PDF form. |
+| [`notes/handwritten/`](notes/handwritten/) | My handwritten hydrogen-atom notes in PDF form. |
 | [`notes/typed/`](notes/typed/) | Markdown transcription and organization of the derivations. |
-| `notes/supplementary/` | An additional Word document retained locally and not included in this public release. |
 | [`src/`](src/) | Copies of the original Python scripts and their dependency list. The code has not been corrected or modernized in this archive. |
 | [`media/`](media/) | Selected original illustrations, the [hologram-pyramid template](media/hologram-pyramid-template.jpg), and the compact [four-panel hologram demo](media/hologram-pyramid-demo.mp4). |
 | [`ERRATA.md`](ERRATA.md) | Known technical limitations and points that need checking. |
 
 The original workspace contains many more generated frames and video exports. They are intentionally not duplicated here; only one representative four-panel video is included.
 
-The handwritten PDF is included in the public archive. The supplementary Word document remains local and is ignored by Git.
+The handwritten PDF is included in the public archive.
 
 ## Reading the notes alongside the code
 
