@@ -1,16 +1,16 @@
 # Introductory Quantum Mechanics: Derivations & Notes
 
-> **Organization Note:** These notes are transcribed directly from your original pages, preserving your exact variable choices (such as $y(r) = rR(r)$, $x = r\epsilon$, $j = n - l - 1$, and $D = \frac{d}{dx}$), intermediate steps, and worked examples. The sections are ordered logically from the 3D Box to the Angular Momentum Operator, followed by the full Hydrogen Atom derivation.
+> **Transcription note:** I used Gemini to transcribe my handwritten study pages into this Markdown document. I kept my original variable choices (such as $y(r) = rR(r)$, $x = r\epsilon$, $j = n - l - 1$, and $D = \frac{d}{dx}$), intermediate steps, and worked examples. Gemini helped with transcription and formatting; these derivations reflect my study notes and have not been independently checked.
 
-## How these notes connect to the code
+## How I connected the notes to my code
 
-These derivations are the theory context for the project, not a description of a single end-to-end implementation:
+I worked through these derivations to understand the theory behind my project. My scripts do not implement every derivation directly:
 
-* **Part 1, 3-D box:** there is no matching 3-D box solver in this workspace. [Finite Potential Well Solutions.py](../../src/Finite%20Potential%20Well%20Solutions.py) explores a separate one-dimensional finite well.
-* **Part 2, angular momentum:** this is a derivation only; the project does not implement a general angular-momentum operator.
-* **Part 3, hydrogen atom:** [Hydrogen Electron Probability Cloud.py](../../src/Hydrogen%20Electron%20Probability%20Cloud.py) plots selected states using hand-written expressions. It does not calculate the general radial function and spherical harmonics derived below, and its visual output has not been validated against these notes.
+* **Part 1, 3-D box:** I did not write a 3-D box solver. [Finite Potential Well Solutions.py](../../src/Finite%20Potential%20Well%20Solutions.py) is my separate experiment with a one-dimensional finite well.
+* **Part 2, angular momentum:** I worked through the operator derivation, but I did not implement a general angular-momentum operator in code.
+* **Part 3, hydrogen atom:** [Hydrogen Electron Probability Cloud.py](../../src/Hydrogen%20Electron%20Probability%20Cloud.py) plots selected states using expressions I wrote by hand. It does not calculate the general radial function and spherical harmonics derived below, and I have not validated its visual output against these notes.
 
-For known implementation caveats, see the [errata](../../ERRATA.md) and [archive README](../../README.md).
+I describe the implementation's limitations in the [errata](../../ERRATA.md) and the project in the [archive README](../../README.md).
 
 ---
 
